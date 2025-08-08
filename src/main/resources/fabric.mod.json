@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "portalcoords",
+  "version": "1.0.0",
+  "name": "Portal Coordinates Overlay",
+  "description": "Shows Nether ↔ Overworld coordinates in overlay.",
+  "authors": ["Kepler"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kepler.portalcoords.PortalCoordsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.8",
+    "fabric-api": "*"
+  }
+}
